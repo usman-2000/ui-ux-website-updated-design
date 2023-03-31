@@ -1,0 +1,100 @@
+.education-and-experience-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 6rem;
+}
+.education-cont {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.edu-main-heading,
+.exp-main-heading {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 48px;
+
+  color: #000000;
+}
+
+.sub-heading {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  /* width: 350px; */
+  margin: 2rem 0rem 2rem 0rem;
+  /* identical to box height, or 86% */
+
+  color: #000000;
+}
+.detail-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.detail-para {
+  width: 70%;
+}
+
+.detail-cont p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 160% */
+
+  text-transform: capitalize;
+
+  color: #000000;
+}
+.experience-cont {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+@media (max-width: 890px) {
+  .edu-main-heading,
+  .exp-main-heading {
+    font-weight: 700;
+    font-size: 35px;
+  }
+  .sub-heading {
+    font-weight: 500;
+    font-size: 17px;
+
+    margin: 1rem 0rem 1rem 0rem;
+  }
+  .detail-cont p {
+    font-weight: 400;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 650px) {
+  .education-and-experience-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 6rem;
+  }
+  .education-cont {
+    width: 80%;
+  }
+  .experience-cont {
+    margin-top: 2rem;
+    width: 80%;
+  }
+}

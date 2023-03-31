@@ -1,0 +1,133 @@
+.about-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 10rem;
+}
+.about-intro {
+  width: 40%;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.main-heading {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 54px;
+  margin: 2rem 0rem 2rem 0rem;
+
+  color: #ff5d79;
+}
+.main-heading span {
+  color: #000000;
+}
+
+.about-description {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  /* or 160% */
+
+  text-transform: lowercase;
+
+  color: #000000;
+}
+.about-social-icons {
+  display: flex;
+  flex-direction: row;
+  width: 100px;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 2rem 0rem 2rem 0rem;
+}
+
+.about-skills-heading {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 24px;
+  /* identical to box height, or 160% */
+  margin: 2rem 0rem 2rem 0rem;
+
+  text-transform: capitalize;
+
+  color: #000000;
+}
+
+.about-skills-cont ul {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.about-skills-cont ul li {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #000000;
+  text-align: start;
+  width: 100px;
+
+  list-style-position: inside;
+  list-style-type: circle;
+  list-style-image: url("../images/dot.png");
+}
+.about-image-cont {
+  width: 40%;
+}
+.about-image-cont img {
+  width: 100%;
+}
+
+@media (max-width: 890px) {
+  .main-heading {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 50px;
+    margin: 1rem 0rem 1rem 0rem;
+  }
+  .about-description {
+    font-weight: 400;
+    font-size: 13px;
+  }
+  .about-social-icons {
+    margin: 1rem 0rem 1rem 0rem;
+  }
+  .about-skills-heading {
+    font-weight: 700;
+    font-size: 13px;
+    margin: 1rem 0rem 1rem 0rem;
+  }
+  .about-skills-cont ul li {
+    font-weight: 400;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 755px) {
+  .about-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10rem;
+  }
+  .about-intro {
+    width: 80%;
+  }
+  .about-image-cont {
+    margin-top: 2rem;
+    width: 80%;
+  }
+}

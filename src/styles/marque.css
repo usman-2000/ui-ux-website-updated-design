@@ -1,0 +1,11 @@
+.marque-cont {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem 0rem 5rem 0rem;
+}
+.marque-cont img {
+  width: 100%;
+  text-align: center;
+}

@@ -1,0 +1,98 @@
+.skills-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: #19191d;
+  padding: 5rem;
+  margin-top: 10rem;
+}
+.skills-sec-heading {
+  color: #ffffff;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 54px;
+}
+.skills-sec-heading span {
+  color: #ff5d79;
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.skills-detail {
+  width: 30%;
+  margin: 3rem 0rem 3rem 0rem;
+
+  /* padding-left: 3rem; */
+  /* margin-left: 3rem; */
+}
+
+.first {
+  background-image: url("../images/1.png");
+  background-repeat: no-repeat;
+  background-size: 5px 100%;
+}
+.second {
+  background-image: url("../images/2.png");
+  background-repeat: no-repeat;
+  background-size: 5px 100%;
+}
+.third {
+  background-image: url("../images/3.png");
+  background-repeat: no-repeat;
+  background-size: 5px 100%;
+}
+.skills-detail h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 24px;
+  /* identical to box height, or 109% */
+  padding: 2rem;
+  color: #ffffff;
+}
+.skills-detail p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  color: #ffffff;
+  padding: 0rem 0rem 2rem 2rem;
+}
+
+@media (max-width: 700px) {
+  .skills-detail {
+    width: 90%;
+    margin: 3rem 0rem 3rem 0rem;
+  }
+  .skills-sec-heading {
+    font-weight: 700;
+    font-size: 35px;
+  }
+  .skills-detail h1 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .skills-detail p {
+    font-weight: 400;
+    font-size: 13px;
+  }
+}
+/* @media (max-width: 500px) {
+  .skills-detail {
+    width: 90%;
+    margin: 3rem 0rem 3rem 0rem;
+  }
+} */
