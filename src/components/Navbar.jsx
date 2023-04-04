@@ -13,6 +13,10 @@ import facebook from "../images/facebook.png";
 import twitter from "../images/twitter.png";
 import github from "../images/github.png";
 
+import facebookBig from "../images/facebookBig.png";
+import twitterBig from "../images/twitterBig.png";
+import githubBig from "../images/githubBig.png";
+
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
@@ -61,17 +65,17 @@ const Navbar = () => {
           <ul className="social-media-desktop">
             <li>
               <a href="#">
-                <img src={github} alt="" />
+                <img src={githubBig} alt="" />
               </a>
             </li>
             <li>
               <a href="#">
-                <img src={facebook} alt="" />
+                <img src={facebookBig} alt="" />
               </a>
             </li>
             <li>
               <a href="#">
-                <img src={twitter} alt="" />
+                <img src={twitterBig} alt="" />
               </a>
             </li>
             <li>
@@ -88,7 +92,7 @@ const Navbar = () => {
           {/* hamburget menu start  */}
           <div className="hamburger-menu">
             <a href="#" onClick={() => setShowMediaIcons(!showMediaIcons)}>
-              {/* <GiHamburgerMenu /> */}
+              {/* <GiHamburgerMenu />  */}
             </a>
           </div>
         </div>

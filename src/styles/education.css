@@ -2,7 +2,8 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  align-items: center;
+  align-items: flex-start;
+
   margin-top: 6rem;
 }
 .education-cont {
@@ -42,6 +43,10 @@
 }
 .detail-para {
   width: 70%;
+}
+.ppp {
+  /* width: 0%; */
+  margin-left: 11rem;
 }
 
 .detail-cont p {

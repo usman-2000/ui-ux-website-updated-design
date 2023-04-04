@@ -16,7 +16,7 @@ export default function Education() {
         <h3 className="sub-heading">General Assembly, New York, NY </h3>
         <div className="detail-cont">
           <p className="detail-para">Certificate in User Experience Design</p>
-          <p>2015</p>
+          <p className="ppp">2015</p>
         </div>
       </div>
       <div className="experience-cont">
@@ -28,15 +28,20 @@ export default function Education() {
           <p className="detail-para">
             Collaborate with cross-functional teams to design and develop
             responsive websites that meet client requirements and industry
-            standards
+            standards.
           </p>
           <p>2020- Present</p>
         </div>
+        <h3 className="sub-heading">
+          UI/UX Designer, Ktk Digital Solutions, Dallas, TX
+        </h3>
+
         <div className="detail-cont">
           <p className="detail-para">
             Conduct user research and usability testing to inform design
-            decisions and improve user experience
+            decisions and improve user experience.
           </p>
+          <p>2018- 2020</p>
         </div>
       </div>
     </div>
